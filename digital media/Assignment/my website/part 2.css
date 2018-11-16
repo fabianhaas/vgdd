@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body{background-image: url("../rick/rick-and-morty-wallpapers-31648-1862926.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;}
+
+#nav_menu ul {list-style-type: inherit;}
+#nav_menu ul li { float: right}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 240px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: underline;
+	background-color: #04A00C;
+	color: #4B0498;
+	font-weight: bolder;
+	border: 6px #4104A2;
+    margin:6px;
+}
+
+#nav_menu ul li a.lastitem { border-right: none;}
+#nav_menu ul li a.current {color:#04B702}
+
+#nav_menu{font-size: 140%;
+margin-right: 6em;
+margin-left: 6em;}
+
+#header {
+	float: inherit;
+	color: #0FCF07;
+    font-size: 220%;
+	text-align:center;
+	font-style:italic;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-top: 40px;
+	}
+
+#main{
+	font-size: 100%;
+	text-align: center;
+	color: #10A004
+}
+
+#footer{margin-bottom:20px;}
